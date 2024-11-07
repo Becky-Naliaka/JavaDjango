@@ -1,0 +1,39 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+<head>
+     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Testimonies</title>
+</head>
+<body>
+<div class="container">
+        <h1>What Our Students Say</h1>
+        <p>See what our students think about the course:</p>
+        <div class="testimonials">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-card">
+                <img src="{% static 'images/django/img6.webp' %}">
+                <h3 class="testimonial-name">Marie Wanga</h3>
+                <p class="testimonial-quote">"The course was incredibly insightful and practical! I feel confident in my Django skills now."</p>
+            </div>
+            <!-- Testimonial 2 -->
+            <div class="testimonial-card">
+                <img src="{% static 'images/django/img4.jfif' %}">
+                <h3 class="testimonial-name">Eileen Eseme</h3>
+                <p class="testimonial-quote">"Amazing experience! The projects were challenging but rewarding, and the instructor was very helpful."</p>
+            </div>
+            <!-- Testimonial 3 -->
+            <div class="testimonial-card">
+                <img src="{% static 'images/django/img1.jfif' %}">
+                <h3 class="testimonial-name">Sang Scott</h3>
+                <p class="testimonial-quote">"This course gave me a solid foundation in Django. I highly recommend it to anyone interested in web development."</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

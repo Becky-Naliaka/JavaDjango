@@ -1,0 +1,44 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+<head>
+     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+</head>
+<body>
+        <section class="contact-info">
+    <h2>Institute Contact Information</h2>
+    <div class="contact-details">
+        <!-- Address Section with Image -->
+        <div class="contact-item">
+            <h3><img src="{% static 'images/django/image19.png' %}" alt="Address Icon" class="contact-icon"> Address</h3>
+            <p>123 Tom Mboya Street, Nairobi</p>
+        </div>
+
+        <!-- Email Section with Image -->
+        <div class="contact-item">
+            <h3><img src="{% static 'images/django/image17.jfif' %}" alt="Email Icon" class="contact-icon"> Email</h3>
+            <p><a href="mailto:javadjangoclass@gmail.com">javadjangoclass@gmail.com</a></p>
+        </div>
+
+        <!-- Phone Section with Image -->
+        <div class="contact-item">
+            <h3><img src="{% static 'images/django/image16.png' %}" alt="Phone Icon" class="contact-icon"> Phone</h3>
+            <p><a href="tel:+1234567890">+123 456 7890</a></p>
+        </div>
+
+        <!-- Fax Section with Image -->
+        <div class="contact-item">
+            <h3><img src="{% static 'images/django/image18.png' %}" alt="" class="contact-icon"> Facebook</h3>
+            <p><a href="facebook">Emobilis Djangoclass</a></p>
+        </div>
+    </div>
+</section>
+
+
+</body>
+</html>

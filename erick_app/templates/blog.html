@@ -1,0 +1,41 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+<head>
+     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog</title>
+</head>
+<body>
+<section class="blog">
+    <h2>Our Blog</h2>
+    <div class="blog-posts">
+        <!-- Blog Post 1 -->
+        <div class="blog-post">
+            <h3 class="blog-title">The Importance of Learning Django</h3>
+            <p class="blog-excerpt">Django is one of the most popular web development frameworks. In this blog post, we will explore why Django is so valuable to developers...</p>
+            <img src="{% static 'images/django/image23.jfif' %}">
+        </div>
+        
+        <!-- Blog Post 2 -->
+        <div class="blog-post">
+            <h3 class="blog-title">5 Tips for Effective Programming</h3>
+            <p class="blog-excerpt">Programming can be overwhelming at times, but there are strategies to help you stay focused and efficient. Check out these five tips...</p>
+            <img src="{% static 'images/django/image21.jfif' %}">
+        </div>
+
+        <!-- Blog Post 3 -->
+        <div class="blog-post">
+            <h3 class="blog-title">Why Python Is Great for Beginners</h3>
+            <p class="blog-excerpt">Python is widely regarded as one of the best programming languages for beginners. In this post, we’ll discuss why Python is an excellent choice...</p>
+            <img src="{% static 'images/django/image22.jfif' %}">
+        </div>
+        
+    </div>
+</section>
+
+</body>
+</html>
